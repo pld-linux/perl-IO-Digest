@@ -1,0 +1,10 @@
+--- IO-Digest-0.10/Makefile.PL~	2004-12-02 10:02:13.000000000 +0100
++++ IO-Digest-0.10/Makefile.PL	2004-12-02 10:02:13.000000000 +0100
+@@ -14,6 +14,6 @@
+         'Digest'		 => '0.0',
+ );
+ include('ExtUtils::AutoInstall');
+-auto_install();
++# auto_install();
+ 
+ WriteAll( sign => 1 );
