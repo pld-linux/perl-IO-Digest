@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	Digest
 Summary:	IO::Digest - calculate digests while reading or writing
-Summary(pl):	IO::Digest - wyliczanie sum kontrolnych podczas odczytu lub zapisu
+Summary(pl.UTF-8):   IO::Digest - wyliczanie sum kontrolnych podczas odczytu lub zapisu
 Name:		perl-IO-Digest
 Version:	0.10
 Release:	1
@@ -29,10 +29,10 @@ The IO::Digest Perl module allows you to calculate digests while
 reading or writing file handles. This avoids the case you need to
 reread the same content to compute the digests after written a file.
 
-%description -l pl
-Modu³ Perla IO::Digest umo¿liwia wyliczanie sum kontrolnych podczas
-odczytu z lub zapisu do pliku. Pozwala to unikn±æ ponownego odczytu
-tej samej zawarto¶ci przy obliczaniu sum kontrolnych po zapisie do
+%description -l pl.UTF-8
+ModuÅ‚ Perla IO::Digest umoÅ¼liwia wyliczanie sum kontrolnych podczas
+odczytu z lub zapisu do pliku. Pozwala to uniknÄ…Ä‡ ponownego odczytu
+tej samej zawartoÅ›ci przy obliczaniu sum kontrolnych po zapisie do
 pliku.
 
 %prep
