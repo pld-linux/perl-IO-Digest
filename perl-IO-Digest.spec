@@ -6,7 +6,7 @@
 %define		pdir	IO
 %define		pnam	Digest
 Summary:	IO::Digest - calculate digests while reading or writing
-Summary(pl.UTF-8):   IO::Digest - wyliczanie sum kontrolnych podczas odczytu lub zapisu
+Summary(pl.UTF-8):	IO::Digest - wyliczanie sum kontrolnych podczas odczytu lub zapisu
 Name:		perl-IO-Digest
 Version:	0.10
 Release:	1
