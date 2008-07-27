@@ -9,7 +9,7 @@ Summary:	IO::Digest - calculate digests while reading or writing
 Summary(pl.UTF-8):	IO::Digest - wyliczanie sum kontrolnych podczas odczytu lub zapisu
 Name:		perl-IO-Digest
 Version:	0.10
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
