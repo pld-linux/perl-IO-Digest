@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	IO
 %define		pnam	Digest
+%include	/usr/lib/rpm/macros.perl
 Summary:	IO::Digest - calculate digests while reading or writing
 Summary(pl.UTF-8):	IO::Digest - wyliczanie sum kontrolnych podczas odczytu lub zapisu
 Name:		perl-IO-Digest
@@ -16,8 +16,9 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0448841e0559c2c19c7e8001ef087e26
 Patch0:		%{name}-noninteractive.patch
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/IO-Digest/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-PerlIO-via-dynamic
 %endif
