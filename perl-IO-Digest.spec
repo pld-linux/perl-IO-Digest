@@ -4,7 +4,6 @@
 
 %define		pdir	IO
 %define		pnam	Digest
-%include	/usr/lib/rpm/macros.perl
 Summary:	IO::Digest - calculate digests while reading or writing
 Summary(pl.UTF-8):	IO::Digest - wyliczanie sum kontrolnych podczas odczytu lub zapisu
 Name:		perl-IO-Digest
